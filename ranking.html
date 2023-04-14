@@ -9,20 +9,75 @@
 </head>
 <body>
 
-    <nav>
-        <a href="/index.html">Inicio</a>
-        <a href="/registro.html">Registro</a>
-    </nav>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                  <img src="img/box-fill.svg" alt="Bootstrap" width="30" height="24">DMC
+                </a>
+              </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/registro.html">Registro</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/ranking.html"></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled"></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
 
-    <h2>Top 5 de Peliculas</h2>
 
-    <ol>
-        <li>El show de Truman</li>
-        <li>El señor de los anillos: Las dos Torres</li>
-        <li>El señor de los anillos: La comunidad del anillo</li>
-        <li>Batman - El caballero de la noche</li>
-        <li>Sueño de Libertad</li>
-    </ol>
+    <h2 class="text-center">Top 5 de Peliculas</h2>
     
+    <table class="table table-striped table-hover">
+        <tr>
+            <th scope="col">
+                <ol>
+                    El show de Truman
+                </ol>
+            </th>
+        </tr>
+        <tr>
+            <th>
+                <ol>
+                    El señor de los anillos: Las dos Torres
+                </ol>
+            </th>
+        </tr>
+        <tr>
+            <th>
+                <ol>
+                    El señor de los anillos: La comunidad del anillo
+                </ol>
+            </th>
+        </tr>
+        <tr>
+            <th>
+                <ol>
+                    Batman - El caballero de la noche
+                </ol>
+            </th>
+        </tr>
+        <tr>
+            <th>
+                <ol>
+                    Sueño de Libertad
+                </ol>
+            </th>
+        </tr>
+    </table>
+
 </body>
 </html>
